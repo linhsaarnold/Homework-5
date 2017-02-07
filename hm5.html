@@ -1,22 +1,64 @@
 <html>
 
-<head>
-
   <title>Homework 5 - Pizza</title>
   
   <script type="text/javascript" src="hm5.js"></script>
   <link rel="stylesheet" type="text/css" href="hm5.css">
   
-</head>
-
 <body>
 
   <div class="header">
     <div id="header-text">
-    <h1>Pizza</h1>
-    <h2>Online Ordering</h2>
+      <h1>Pizza</h1>
+      <h2>Online Ordering</h2>
+    </div>
+  </div>
+  
+  <div class="ChooseToppings">
+    <div id="ChooseToppingsTitle">
+      <h3>Choose Your Topppings</h3>
+    </div>
+    <div id="ChooseToppingsSub">
+      <p>Click the add button to add the toppings you like       to your pizza ($1 Per Topping) </p>
+    </div>      
+  </div>
+  
+  <div class="Toppings">
+    <ul style="list-style-type:none">
+      <li><img src="https://github.com/linhsaarnold/Homework-5/blob/master/Cheese.png?raw=true" alt="Cheese" style="width:128px;height:128px;"></li>
+      <div id="Buttons">
+        <li><button onclick="myFunction()">Add Cheese</button></li>
+      </div>
+    </ul>
+    <ul style="list-style-type:none">
+      <li><img src="https://github.com/linhsaarnold/Homework-5/blob/master/Bacon.jpg?raw=true" alt="Bacon" style="width:128px;height:128px;"></li>
+      <div id="Buttons">
+        <li><button onclick="myFunction()">Add Bacon</button></li>
+      </div>
+    </ul>
+    <ul style="list-style-type:none">
+      <li><img src="https://github.com/linhsaarnold/Homework-5/blob/master/Mushroom.jpg?raw=true" alt="Mushrooms" style="width:128px;height:128px;"></li>
+      <div id="Buttons">
+        <li><button onclick="myFunction()">Add Mushrooms</button></li>
+      </div>
+    </ul>
+    <ul style="list-style-type:none">
+      <li><img src="https://github.com/linhsaarnold/Homework-5/blob/master/Bell%20Peppers.png?raw=true" alt="Bell Peppers" style="width:128px;height:128px;"></li>
+      <div id="Buttons">
+        <li><button onclick="myFunction()">Add Bell Peppers</button></li>
+      </div>
+    </ul>
+  </div>
+  
+  <br>
+  
+  <div class="Totals">
+    <p id="Total">Total: </p>
+    <div id="Buttons">
+      <button onclick="myFunction2()">Clear</button>
     </div>
   </div>
   
 </body>
+
 </html>

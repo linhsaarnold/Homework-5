@@ -13,7 +13,7 @@ body {
 }
 
 #header-text {
-  font-family: Calibri, sans-serif;
+  font-family: BebasNeueBold, sans-serif;
   color: black;
   margin: 0; 
   position: relative;
@@ -30,3 +30,44 @@ h1 {
 h2 {
   font-size: 20px;
 }
+
+.ChooseToppings {
+  text-align: center;
+  font-family: Montserrat, serif;
+  color: black;
+  background-color: #EDBB99;
+}
+
+ul li {
+    display:inline;
+}
+
+.Toppings {
+  image-align: center;
+  text-align: center;
+}
+
+.Totals {
+  text-align: center;
+  button-align: center;
+  font-family: BebasNeueBold, sans-serif; 
+  font-size: 20px;
+}
+
+button {
+    background-color: white; 
+    border: 2px solid #F8C471;
+    color: black;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #F8C471;
+    color: white;
+}
+
